@@ -1,0 +1,47 @@
+body,
+html{
+	height: 100%;
+	width: 100%;
+	font-family: 'Monserrat' sans-serif;
+  	background: url(laptop5.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+/* search perfect full background image to get image fitting on css trick*/
+
+
+h1{
+	font-size: 3rem;
+	color: #9ab391;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
+
+.btn {
+	
+	border-radius: 300px; /* to make the edges more circular */
+	text-transform: uppercase;
+	background-color: #1630b5;
+	border-color: #1630b5;
+
+}
+
+.btn:hover{
+	background-color: green;
+	border-color: green;
+	border-width: 4px;
+	
+}
+
+.h{
+	height: 10rem;
+}
+
+hr{
+	border-color: #1630b5;
+	border-width: 3px; /* No effect */
+	max-width: 65px;
+}
